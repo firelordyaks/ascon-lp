@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* header start*/
+
+*{
+    font-family: Inter, sans-serif;
+    margin: 0px;
+}
+
+#ascon-logo{
+    width: 100%;
+    height: 39px;
+}
+
+li, a, .online{
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links, li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.nav-links,li,a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links, li, a:hover{
+    color: green;
+}
+
+.online{
+    padding: 7px 10px;
+    background: linear-gradient(91.93deg, #A7D7AD 5.16%, #2C5031 79.71%);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.online:hover{
+    background: linear-gradient(51.93deg, #A7D7AD 0.16%, #2C5031 70.71%);
+}
+
+img{
+    color: #2C5031;
+}
+/* header end*/
+
+.red-chairs-div{
+    background-image: url(./assets/red-chairs.svg);
+    height: 362px;
+    width: 100%;
+    z-index: -1;
+}
+
+#red-chairs-header{
+    background-color: #2C5031;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+    color: white;
+    text-align: center;
+    padding: 0px 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#light-bulb{
+    height: 13px;
+}
+
+.link-icons{
+    height: 18px;
+    padding: 0px 5px;
+    margin: 0px;
+}
+
+#green-header-ascon{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+#green-header-mail{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#mail{
+    height: 13px;
+}
+
+.red-chairs-body{
+    width: 45%;
+    height: 136px;
+    color: white;
+    font-family: Inter ,sans-serif;
+    margin-top: 6%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.red-chairs-body h2{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.red-chairs-body p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.core-and-dg {
+    width: 86.1%;
+    margin: auto;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.core-mandates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 364px;
+    padding-top: 10px;
+}
+
+.core-mandates div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%; /* Adjust this value to fit the number of items */
+    background-color: #d9d9d9;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.core-mandates img {
+    height: 200px; /* Fixed height */
+    width: auto; /* Auto width to maintain aspect ratio */
+    object-fit: contain; /* Ensure the image fits within the div without distortion */
+    margin-bottom: 10px;
+}
+
+.core-mandates button {
+    border: 2px solid #006400;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    width: Fixed (290px)px;
+    height:55px;
+    padding: 18px;
+    border-radius: 5px;
+}
+
+.core-mandates button:hover {
+    background-color: #006400;
+}
+
+.dg {
+    display: flex;
+    height: 411px;
+}
+
+.line-and-vision{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.dg h4{
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-align: left;
+    background: linear-gradient(180deg, #C4C4C4 13.66%, #666666 77.62%);
+    -webkit-text-fill-color: transparent;
+    background-clip: unset;
+    -webkit-background-clip: text;
+}
+
+.dg p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.line-and-vision img{
+    padding-right: 10px;
+}
+
+.dg-picture{
+   padding-left: 10px;
+}
+
+.achievements img{
+    width: 100%;
+}
+
+.upcoming{
+    width: 60%;
+    height: 600px;
+    margin-left: 100px;
+    margin-right: auto;
+    box-shadow: -7px -7px 5.5px 0px #00000040, 7px 7px 5.5px 0px #00000040;
+    margin-top: 70px;
+    padding: 50px 0px 0px 50px;
+}
+
+.upcoming h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.89px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #16471C;
+}
+
+.upcoming p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.78px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.upcoming div{
+    padding: 20px;
+}
+
+.news-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.intro {
+    width: 40%; /* Adjust as needed */
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.intro .more-news {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #16471C;
+    border: 2px solid #16471C;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center;
+}
+
+.intro .more-news:hover {
+    background-color: #16471C;
+    color: #fff;
+}
+
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.news-card {
+    background-color: #fff;
+    box-shadow: -7px -7px 5.5px 0px #00000040, 7px 7px 5.5px 0px #00000040;
+    padding: 20px;
+    position: relative;
+}
+
+.news-date {
+    background-color: #16471C;
+    color: #fff;
+    padding: 15px 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 1em;
+}
+
+.news-title {
+    margin-top: 60px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
